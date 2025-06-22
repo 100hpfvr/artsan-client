@@ -1,0 +1,16 @@
+<div class="login-container">
+  <p-card class="login-card">
+    <div class="p-fluid">
+      <h2 class="title">Login</h2>
+      <div class="field">
+        <label for="username">Usuário</label>
+        <input id="username" type="text" pInputText [(ngModel)]="username" />
+      </div>
+      <div class="field">
+        <label for="password">Senha</label>
+        <input id="password" type="password" pInputText [(ngModel)]="password" />
+      </div>
+      <button pButton type="button" label="Entrar" class="w-full" (click)="onLogin()"></button>
+    </div>
+  </p-card>
+</div>
